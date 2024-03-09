@@ -1,0 +1,8 @@
+ double total = 0, price=0;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("Please enter the price: ");
+                price = Convert.ToDouble(Console.ReadLine());
+                total += price;
+            }
+            Console.WriteLine($"Your total is {total}");
